@@ -89,7 +89,7 @@ extension LoginViewModel {
     
     
     func callWSToLogin (failed:@escaping ((String?) -> Void)) {
-        let urlStr = "http://edi.pluto-men.com/api/speakers"
+        let urlStr = "Your_URL"
         
         AFWrapper.requestGETURL(urlStr, success: { [unowned self] (data) in
             do  {
